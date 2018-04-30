@@ -1,0 +1,53 @@
+.report-body
+{
+    display:grid;
+    grid-row-gap: 1em;
+    background-color: #ececed;
+    padding: 2% 10%;
+}
+
+.report-card
+{
+    display:grid;
+    grid-template-areas:
+        'title-container'
+        'report-form';
+    grid-row-gap: 4em;
+    background-color: white;
+    padding: 2% 5%;
+}
+
+
+.title-font
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0,0,0);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    justify-self: left;
+    align-self: center;
+    padding-bottom: 1em;
+    text-transform: capitalize;
+}
+
+.p-font
+{
+    font-size: 20px;
+    color: rgb(151,163,179);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    justify-self: left;
+    align-self: center;
+}
+
+.form-font
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0,0,0);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    justify-self: left;
+    align-self: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-transform: capitalize;
+}
