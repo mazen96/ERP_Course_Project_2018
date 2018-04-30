@@ -1,0 +1,60 @@
+.wwd-faq-main
+{
+    display:grid;
+    grid-row-gap: 3em;
+    background-color: #ececed;
+    padding: 3% 10%;
+}
+
+.wwd-faq-sec1
+{
+    background-color: #ffffff;
+    padding: 2% 5%;
+}
+
+.wwd-faq-sec1-font1
+{
+    font-size: 30px;
+    color: rgb(0,0,0);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: auto;
+}
+
+.wwd-faq-sec1-font2
+{
+    font-size: 18px;
+    color: rgb(151,163,179);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: justify;
+    text-justify: auto;
+    max-width: auto;
+}
+
+.wwd-faq-sec2
+{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+.wwd-inner-div
+{
+    background-color: #ffffff;
+    min-width: 250px;
+    min-height: 250px;
+    padding: 10% 10%;
+}
+
+.wwd-inner-div
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0,0,0);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: auto;
+}
