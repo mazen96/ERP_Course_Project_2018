@@ -6,7 +6,7 @@ class Text extends Component {
     render() {
         return (
             <div>
-                <pre style={{ whiteSpace: 'pre-wrap' }} className="paragraph-font">{`
+                <p style={{ whiteSpace: 'pre-wrap' }} className="paragraph-font">{`
 
 Conceived in secrecy, the Australian Secret Intelligence Service has, unsurprisingly, spent the past 60 years operating in carefully cultivated shadows.
 Over that time no Director-General of ASIS has, until today, made a public address concerning the role or nature of the organisation.
@@ -31,7 +31,7 @@ There have been a few times over the past 60 years when "knowledge regarding the
 And mostly this has been when things have gone wrong for one reason or another, sometimes the fault of ASIS and sometimes not.
 
 In 1972 Prime Minister McMahon somehow found himself referring to ASlS's old codename — M09 — in a TV interview; there was the sacking of one of my predecessors, Bill Robertson, in 1975; and publicity in 1977 about operations in Chile undertaken on behalf of our allies. And some of you may remember the ill-conceived and bungled training exercise at the Sheraton Hotel in 1983.
-                `}</pre>
+                `}</p>
             </div>
         )
     }

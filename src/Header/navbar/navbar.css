@@ -1,0 +1,22 @@
+.navbar {
+    position: absolute;
+    text-align: center;
+    bottom: -30px;
+    width: 70%;
+    right: 0px;
+    left: 0px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+  }
+  
+  .navbar-details {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .content {
+    height: 300px;
+  }
+  

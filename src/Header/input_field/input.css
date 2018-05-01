@@ -1,0 +1,28 @@
+.main {
+  margin: 20px;
+  padding-bottom: 5px;
+  background-color: inherit;
+  border-bottom: .5px solid white;
+  height: 15%;
+}
+
+.main i {
+  color: white;
+  text-align: right;
+  padding: 0;
+}
+
+.main input {
+  padding: 0;
+}
+
+input {
+  border: 0px;
+  background-color: inherit;
+  color: white;
+  outline: none;
+}
+
+input::placeholder {
+  color: #c98181;
+}

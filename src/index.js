@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-
+//added header and footer to test them.......
+import Header from './Header/header'
+import Fotter from './Footer/footer'
+import App from  './App'
 // ................... Test Imports ....................
 
 //import App from './App';
@@ -16,17 +18,23 @@ import './index.css';
 
 // ............ Test Components ................
 
-//ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 //ReactDOM.render(<ReportThreats />, document.getElementById('root'));
 //ReactDOM.render(<History />, document.getElementById('root'));
 
 
 
-
+/*
 // ................... Test Imports (MICHAEL) ....................
 import DirectorsSpeech from './Who_We_Are/Directors_Speech/DirectorsSpeech';
 import MissionAndValues from './Who_We_Are/Mission_And_Values/MissionAndValues';
+import Footer from './Footer/footer';
 
 // ................... Test Components (MICHAEL) ....................
 ReactDOM.render(<DirectorsSpeech />, document.getElementById('root'));
 //ReactDOM.render(<MissionAndValues />, document.getElementById('root'));
+
+*/
+
+
+//................test components(amged)........................

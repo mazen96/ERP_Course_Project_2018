@@ -1,0 +1,18 @@
+.Header {
+    background-image: url("./assets/Rectangle 6 copy 2.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  img {
+    height: 70%;
+  }
+  
+  .min-navbar i {
+    color: white;
+  }
+  
+  .min-navbar > * {
+    text-align: center;
+  }

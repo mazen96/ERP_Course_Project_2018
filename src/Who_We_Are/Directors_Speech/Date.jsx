@@ -10,8 +10,8 @@ class Date extends Component {
                     <div style={{float:'left'}}>
                         <p className="date-font">19 July 2012</p>
                     </div>
-                    <div style={{float:'right'}}>
-                        <p className="line"/>
+                    <div style={{float:'right',width:'85%'}}>
+                        <hr/>
                     </div>
                 </div>
             </div>
