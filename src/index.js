@@ -13,6 +13,7 @@ import './index.css';
 //import History from './Who_We_Are/History/History'
 
 
+
 // ............ Test Components ................
 
 //ReactDOM.render(<App />, document.getElementById('root'));
@@ -21,3 +22,11 @@ import './index.css';
 
 
 
+
+// ................... Test Imports (MICHAEL) ....................
+import DirectorsSpeech from './Who_We_Are/Directors_Speech/DirectorsSpeech';
+import MissionAndValues from './Who_We_Are/Mission_And_Values/MissionAndValues';
+
+// ................... Test Components (MICHAEL) ....................
+ReactDOM.render(<DirectorsSpeech />, document.getElementById('root'));
+//ReactDOM.render(<MissionAndValues />, document.getElementById('root'));
