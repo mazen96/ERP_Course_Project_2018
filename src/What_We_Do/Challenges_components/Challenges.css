@@ -1,0 +1,177 @@
+.mainBody{
+    display:grid;
+    grid-row-gap: 1em;
+    grid-template-columns:repeat(5 , 1 fr);
+    background: rgb(236, 236, 237);
+    padding: 1% 10%;
+    padding-top: 2%;
+  }
+  .box1{
+    display:grid;
+    background:white;
+    padding: 5% 7%;
+    font-size: 18px;
+
+  }
+  .box2{
+    display:grid;
+    background:white;
+    grid-template-rows: 3cm 5.25cm 2fr;
+    grid-template-columns: 4cm 4fr 1fr ;
+    font-size: 18px;
+  }
+  .box2Reversed{
+    display:grid;
+    background:white;
+    grid-template-rows: 3cm 2.25cm 3cm ;
+    grid-template-columns: 1fr 2cm 1fr ;
+    padding: 0% 0%;
+  }
+  .box3{
+    display:grid;
+    background:white;
+    grid-template-rows: 2.5cm  2fr;
+    grid-template-columns: 3cm 4fr ;
+    padding: 0% 1%;
+  }
+  .box4{
+    display:grid;
+    background:white;
+    grid-template-columns: 2fr 0.55cm 2fr;
+    grid-gap: 1em;
+    grid-template-rows: 2fr  0.5fr;
+  }
+  .subBox2{
+    display:grid;
+    background:white;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: justify;
+    padding: 1% 1%;
+  }
+  .headerBox2{
+    display:grid;
+    background:white;
+    padding: 6% 4%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-weight: bold;
+  }
+  .dashBox2{
+    display:grid;
+    background:white;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 20% 75%;
+  }
+  .imageBox2{
+    display:grid;
+    background:white;
+    grid-column: 3/4;
+    grid-row: 1/3;
+  }
+  .leftBox4{
+    display:grid;
+    background:white;
+    grid-template-rows: 2.5cm  2fr;
+    grid-template-columns: 3cm 2fr ;
+  }
+  .rightBox4{
+    display:grid;
+    background:white;
+    grid-template-rows: 2.5cm  2fr;
+    grid-template-columns: 3cm 2fr ;
+  }
+  .inBox4{
+    display:grid;
+    background:rgb(236, 236, 237);
+    grid-column: 2/3;
+    grid-row: 1/3;
+    color: rgb(236, 236, 237);
+    text-align: right;
+    padding: 10% 50%;
+  }
+  .subBox3{
+    display:grid;
+    background:white;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 3% 1%;
+    white-space: pre-line;
+    font-size: 19px;
+  }
+  .headerBox3{
+    display:grid;
+    background:white;
+    padding: 5% 4%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 35px 40px;
+    font-weight: bold;
+  }
+  .dashBox3{
+    display:grid;
+    background:white;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 50% 75%;
+  }
+
+  .subBox4{
+    display:grid;
+    background:white;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: start;
+    margin: 1% auto; 
+    white-space: pre-line;
+    font-size: 16px;
+  }
+  .headerBox4{
+    display:grid;
+    background:white;
+    padding: 5% 4%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-weight: bold;
+  }
+  .dashBox4{
+    display:grid;
+    background:white;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 6% 75%;
+  }
+
+
+
+
+  .subBox2Reversed{
+    display:grid;
+    background:white;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: justify;
+    padding: 0% 0%;
+  }
+  .headerBox2Reversed{
+    display:grid;
+    background:white;
+    padding: 5% 0%;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    font-weight: bold;
+  }
+  .dashBox2Reversed{
+    display:grid;
+    background:white;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 5% 50%;
+  }
+  .imageBox2Reversed{
+    display:grid;
+    background:white;
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
