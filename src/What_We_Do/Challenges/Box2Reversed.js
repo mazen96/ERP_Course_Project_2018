@@ -22,11 +22,11 @@ class Box2Reversed extends React.Component {
   render() {
     return (
       <div className="box2Reversed">
-        <img src={Crop} className="imageBox2Reversed" />
+        <img src={Crop} className="imageBox2Reversed" alt="" />
         <h1 className="headerBox2Reversed">
           <strong>{this.state.title1}</strong>
         </h1>
-        <img src={Dash} className="dashBox2Reversed" />
+        <img src={Dash} className="dashBox2Reversed" alt=""/>
         <p className="subBox2Reversed">
           {this.state.body1}
         </p>

@@ -8,11 +8,8 @@ import './accaountabilityStyle.css';
 
 
 
-class mainBody extends Component{
+class Accaountability extends Component{
 
-    constructor(props){
-        super(props);
-    }
 
     render(){
 
@@ -30,4 +27,4 @@ class mainBody extends Component{
 
 }
 
-export default mainBody;
+export default Accaountability;

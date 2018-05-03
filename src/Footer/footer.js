@@ -1,52 +1,53 @@
 import React, { Component } from 'react';
 import logo from '../Header/assets/Vector Smart Object copy.png';
+import { Link } from 'react-router-dom'
 import './footer.css';
 
 class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-            <div class="row justify-content-center">
-            <div class="f-logo col-lg-2 col-md-5">
+            <div className="row justify-content-center">
+            <div className="f-logo col-lg-2 col-md-5">
                 <img src={logo} alt=""/>
             </div>
-            <div id="who" class="col-lg-2 col-md-5">
-                <h4>WHO WE ARE</h4>
-                <p>Mission, Values and Ethics</p>
-                <p>HISTORY</p>
-                <p>DIRECTOR`S SPEESH</p>
-                <p>FAQ</p>
+            <div id="who" className="col-lg-2 col-md-5">
+                <h4>Who we are</h4>
+                <Link to='/MissionAndValues'>Mission, Values and Ethics</Link><br/>
+                <Link to='/History'>History</Link><br/>
+                <Link to='/DirectorsSpeech'>DIRECTOR`S SPEESH</Link><br/>
+                <Link to='/WWD_FAQ'>FAQ</Link><br/>
             </div>
-            <div id="what" class="col-lg-2 col-md-5">
-                <h4>WHAT WE DO</h4>
-                <p>Legislations</p>
-                <p>Public Interest Disclosures</p>
-                <p>Counter-terrorism</p>
-                <p>Counter proliferation</p>
+            <div id="what" className="col-lg-2 col-md-5">
+                <h4>What we do</h4>
+                <Link to='/'>Legislations</Link><br/>
+                <Link to='/PublicInterest'>Public Interest Disclosures</Link><br/>
+                <Link to='/'>Counter-terrorism</Link><br/>
+                <Link to='/'>Counter proliferation</Link><br/>
             </div>
-            <div id="links" class="col-lg-2 col-md-5">
-                <h4>NEWS</h4>
-                <h4>FAQs</h4>
-                <h4>CONTACT US</h4>
-                <ul id="so-mi" class="row so-mi justify-content-center ">
+            <div id="links" className="col-lg-2 col-md-5">
+                <Link to='/NewsFade'>NEWS</Link><br/>
+                <Link to='/WWD_FAQ'>FAQ</Link><br/>
+                <Link to='/'>CONTACT US</Link><br/>
+                <ul id="so-mi" className="row so-mi justify-content-center ">
                     <li>
-                        <a href="#">
-                            <i class="col-3 fab fa-facebook-square"></i>
+                        <a href="">
+                            <i className="col-3 fab fa-facebook-square"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="col-3 fab fa-twitter"></i>
+                        <a href="">
+                            <i className="col-3 fab fa-twitter"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="col-3 fab fa-instagram"></i>
+                        <a href="">
+                            <i className="col-3 fab fa-instagram"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="col-3 fab fa-google-plus-g"></i>
+                        <a href="">
+                            <i className="col-3 fab fa-google-plus-g"></i>
                         </a>
                     </li>
                 </ul>

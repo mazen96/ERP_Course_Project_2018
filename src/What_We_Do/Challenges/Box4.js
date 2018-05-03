@@ -26,7 +26,7 @@ class Box4 extends React.Component {
             <strong>{this.state.title1}</strong>
           </h1>
           <br />
-          <img src={Dash} className="dashBox4" />
+          <img src={Dash} className="dashBox4" alt="" />
           <p className="subBox4">
             {this.state.body1}
           </p>
@@ -49,7 +49,7 @@ class Box4 extends React.Component {
             <strong>{this.state.title2}</strong>
           </h1>
           <br />
-          <img src={Dash} className="dashBox4" />
+          <img src={Dash} className="dashBox4" alt =""/>
           <p className="subBox4">
             {this.state.body2}
           </p>

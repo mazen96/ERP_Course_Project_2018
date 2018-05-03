@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './logos.css';
 import logo from '../assets/Vector Smart Object copy.png';
-import Min_navbar from './min-navbar/min-navbar'
+import MinNavbar from './min-navbar/min-navbar'
 
 
 class Logos extends Component {
@@ -12,7 +12,7 @@ class Logos extends Component {
                     <img alt="logo" src={logo}/>
                 </div>
                 
-                <Min_navbar />
+                <MinNavbar />
             </div>
         );
     }

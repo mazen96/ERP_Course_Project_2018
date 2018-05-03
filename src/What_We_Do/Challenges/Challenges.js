@@ -7,11 +7,7 @@ import Box4 from "./Box4";
 import './Challenges.css';
 
 
-class MainBody extends React.Component {
-
-  constructor(props) {
-    super(props);
-  }
+class Challenges extends React.Component {
 
   render() {
     return (
@@ -29,4 +25,4 @@ class MainBody extends React.Component {
 
 }
 
-export default MainBody;
+export default Challenges;

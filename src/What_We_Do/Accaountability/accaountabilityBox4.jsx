@@ -30,12 +30,12 @@ class accaountabilityBox4 extends Component{
         return(
             <div className="box4">
             <div className="leftBox4">
-                <h1 class="headerBox4">
+                <h1 className="headerBox4">
                     <strong>{this.state.title1}</strong>
                 </h1>
                 <br/>
                 <img src={Dash} className="dashBox4"/>
-                <p class="subBox4">
+                <p className="subBox4">
                     {this.state.body1}
                 </p>
             </div>

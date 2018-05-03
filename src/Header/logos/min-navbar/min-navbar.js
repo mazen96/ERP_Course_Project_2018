@@ -1,41 +1,41 @@
 import React, { Component } from 'react';
 import './min-navbar.css';
 import Input from '../../input_field/input'
-class Min_navbar extends Component {
+class MinNavbar extends Component {
     render() {
         return (
 
             <ul id="min-navbar" className="Min_navbar row col-md-3 justify-content-between min-navbar">
-                <li class="col-3 links">
+                <li className="col-3 links">
                     <a href="#">
-                        <i class="far fa-envelope"></i>
+                        <i className="far fa-envelope"></i>
                     </a>
                 </li>
-                <li class="col-3 links">
+                <li className="col-3 links">
                     <a href="#">
-                        <i class="fas fa-search"></i>
+                        <i className="fas fa-search"></i>
                     </a>
                 </li>
-                <li class="col-3 links">
-                    <div class="dropdown">
-                        <i class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <li className="col-3 links">
+                    <div className="dropdown">
+                        <i className="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             EN
                             </i>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Arabic</a>
-                            <a class="dropdown-item" href="#">Franch</a>
-                            <a class="dropdown-item" href="#">Dutch</a>
+                        <div className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                            <a className="dropdown-item" href="#">Arabic</a>
+                            <a className="dropdown-item" href="#">Franch</a>
+                            <a className="dropdown-item" href="#">Dutch</a>
                         </div>
                     </div>
                 </li>
-                <li class="col-3 links hide">
-                    <div class="dropdown">
-                        <i class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-bars"></i>
+                <li className="col-3 links hide">
+                    <div className="dropdown">
+                        <i className="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i className="fas fa-bars"></i>
                         </i>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                            <div class="row">
-                                <div class="dropdown-item col">
+                        <div className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                            <div className="row">
+                                <div className="dropdown-item col">
                                     <p>
                                         WHO WE ARE
                                         </p>
@@ -58,7 +58,7 @@ class Min_navbar extends Component {
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="dropdown-item col">
+                                <div className="dropdown-item col">
                                     <p>
                                         WHAT WE DO
                                         </p>
@@ -101,4 +101,4 @@ class Min_navbar extends Component {
     }
 }
 
-export default Min_navbar;
+export default MinNavbar;

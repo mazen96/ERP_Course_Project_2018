@@ -7,7 +7,7 @@ class Slider extends Component {
     return (
       <div id="carouselExampleIndicators" className="carousel slide Slider" data-ride="carousel">
                 <ol className="carousel-indicators">
-                    <li className="links" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li className="links active" data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
                     <li className="links" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li className="links" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     <li className="links" data-target="#carouselExampleIndicators" data-slide-to="3"></li>
