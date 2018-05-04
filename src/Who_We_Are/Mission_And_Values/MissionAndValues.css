@@ -61,6 +61,7 @@
     font-family: "Avenir";
     color: rgb( 149, 148, 148);
     text-align: left;
+    display: inline;
 }
 
 .longdash {

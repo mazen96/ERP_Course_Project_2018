@@ -6,7 +6,7 @@ class DashElement extends React.Component {
     return (
       <div className="fourColumn">
         <img src="./img/dash.png" alt="" />
-        <p className="twoOverFour">
+        <p className="twoOverFour" style={{textAlign: 'left'}} >
           {this.props.text}
         </p>
       </div>

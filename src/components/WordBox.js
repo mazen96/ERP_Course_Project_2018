@@ -8,9 +8,9 @@ class WordBox extends React.Component {
         <h4>
           <strong>{this.props.title}</strong>
         </h4>
-        <p>
-          {this.props.text}
-        </p>
+        <div style={{ textAlign: 'left' }} >
+          {this.props.text.split('\n').map(line => <p>{line}</p>)}
+        </div>
       </div>
     );
   }

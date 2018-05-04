@@ -8,8 +8,8 @@ class Logos extends Component {
     render() {
         return (
             <div className="Logos row justify-content-between">
-                <div id="logo" className="col-md-2 img">
-                    <img alt="logo" src={logo}/>
+                <div id="logo" className="col-md-2">
+                    <img alt="logo" src={logo} className="img"/>
                 </div>
                 
                 <MinNavbar />

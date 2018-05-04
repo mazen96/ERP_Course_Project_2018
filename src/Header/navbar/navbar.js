@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom'
 import './navbar.css';
 
 class Navbar extends Component {
   render() {
     return (
       <div className="row justify-content-around navbar Navbar">
-            <div className="col-md-3 links" links="#">WHO WE ARE</div>
-            <div className="col-md-3 links" links="#">WHAT WE Do</div>
-            <div className="col-md-3 links" links="#">NEWS</div>
-        </div>
+        <Link to='/WhoWeAre'>Who we are</Link>
+        <Link to='/WhatWeDo'>What we do</Link>
+        <Link to='/NewsFade'>News</Link><br />
+      </div>
+
     );
   }
 }

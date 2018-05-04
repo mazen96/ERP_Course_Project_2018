@@ -7,7 +7,7 @@ class SubContainer extends Component {
     render(){
         return(
             <div>
-                <div class="Excellence-InnovationContainer">
+                <div className="Excellence-InnovationContainer">
                     <Child></Child>
                     <Child></Child>
                     <Child></Child>

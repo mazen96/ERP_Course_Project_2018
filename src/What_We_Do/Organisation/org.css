@@ -1,0 +1,72 @@
+.p{
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.org{
+    font-size: 18px;
+    color: rgb(226,0,26);
+    font-family: "Sans-serif";
+    text-align: center;
+}
+.Challenges{
+    font-size: 18px;
+    color: rgb(0,0,0);
+    font-family: "Sans-serif";
+    text-align: center;
+}
+.LargeOrg{
+    font-size: 90px;
+    font-family: "Sans-serif";
+    color: rgb(255,255,255);
+    font-family: "Avenir";
+    text-align: right;
+}
+.MainTabsWhite{
+    font-size: 18px;
+    color: rgb(255,255,255);
+    font-family: "Sans-serif";
+    text-align: center;
+}
+.MainTabsRed{
+    font-size: 18px;
+    color: rgb(229,0,30);
+    font-family: "Sans-serif";
+    text-align: center;
+}
+.parent{
+    display: grid;
+    padding: 5em;
+    background-color: #ddd;
+}
+.first{
+    /*background-color: #ddd;*/
+    display: grid;
+    background-color: white;
+    padding: 3em;
+    align-items: stretch;
+}
+.twoColomns{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    
+}
+.twoColomns > div{
+    padding: 3em;
+    background-color: white;
+}
+.orgChart{
+    background-color: white;
+    display: grid;
+    padding: 2em;
+}
+.secondParagraph{
+    background-color: white;
+    display: grid;
+    padding: 2em;
+}
+.abuse{
+    font-size: 18px;
+    color: rgb(149,149,150);
+    font-family: "Avenir";
+}

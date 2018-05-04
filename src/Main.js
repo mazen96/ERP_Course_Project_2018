@@ -13,6 +13,9 @@ import NewsFade from './News/News_Fade/news_fade';
 import Accaountability from './What_We_Do/Accaountability/Accaountability';
 import Challenges from './What_We_Do/Challenges/Challenges';
 import WWD_FAQ from './What_We_Do/WWD_FAQ/wwd_faq';
+import NewsEvents from './News/News_Events/news';
+import NewsPublication from './News/News_Publications/NewsPublication'
+import Organisation from './What_We_Do/Organisation/Organisation'
 
 class App extends Component {
   render() {
@@ -30,6 +33,9 @@ class App extends Component {
             <Route exact path='/Accaountability'  component={Accaountability}/>
             <Route exact path='/Challenges'       component={Challenges}/>
             <Route exact path='/WWD_FAQ'          component={WWD_FAQ}/>
+            <Route exact path='/NewsEvents'       component={NewsEvents}/>
+            <Route exact path='/NewsPublication'  component={NewsPublication}/>
+            <Route exact path='/Organisation'     component={Organisation}/>
         </Switch>
     );
   }
