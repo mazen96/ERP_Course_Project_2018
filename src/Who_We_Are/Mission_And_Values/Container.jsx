@@ -8,8 +8,8 @@ class Container extends Component {
     render(){
         return(
             <div id="container">
-                <MissionAndValuesContainer></MissionAndValuesContainer>
-                <SubContainer></SubContainer>
+                <MissionAndValuesContainer />
+                <SubContainer />
             </div>
         )
     }

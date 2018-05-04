@@ -10,10 +10,10 @@ class DirectorsSpeechContainer extends Component {
     render(){
         return(
             <div className="DirectorsSpeechContainer">
-               <Info></Info>
-               <PDF></PDF>
-               <Date></Date>
-               <Text></Text>
+               <Info />
+               <PDF />
+               <Date />
+               <Text />
             </div>
         )
     }

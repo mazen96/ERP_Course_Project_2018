@@ -8,10 +8,10 @@ class SubContainer extends Component {
         return(
             <div>
                 <div className="Excellence-InnovationContainer">
-                    <Child></Child>
-                    <Child></Child>
-                    <Child></Child>
-                    <Child></Child>
+                    <Child />
+                    <Child />
+                    <Child />
+                    <Child />
                 </div>
             </div>
         )

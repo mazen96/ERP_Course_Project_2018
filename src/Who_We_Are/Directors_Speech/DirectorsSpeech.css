@@ -6,7 +6,7 @@
 .DirectorsSpeechContainer {
     font-weight: bold;
     background-color: white;
-    width: 70%;
+    width: 90%;
     margin: auto;
     padding: 60px;
 }
@@ -15,12 +15,14 @@
     font-size: 30px;
     font-family: "AvenirLTStd";
     color: rgb( 0, 0, 0);
+    text-align: left;
 }
 
 .sub-head-font1 {
     font-size: 30px;
     font-family: "Avenir";
     color: rgb( 149, 149, 150);
+    text-align: left;
 }
 
 .paragraph-font {
@@ -28,7 +30,7 @@
     color: rgb( 149, 149, 149);
     font-family: "Avenir";
     justify-self: left;
-    align-self: center;
+    text-align: left;
 }
 
 .sub-p-font {
@@ -65,12 +67,14 @@
 
 .profile p{
     padding: 15px;
+    color: black;
 }
 
 .sub-sub-head-font {
     font-size: 18px;
     font-family: "Avenir";
     color: rgb( 149, 149, 149);
+    text-align: left;
 }
 
 .pdf-image {

@@ -6,7 +6,7 @@
     font-weight: bold;
     padding: 40px 60px;
     background-color: white;
-    width: 70%;
+    width: 90%;
     right: 0px;
     left: 0px;
     margin:auto;
@@ -18,6 +18,7 @@
     padding-right: 30px;
     background-color: white;
     margin-bottom: 30px;
+    text-align: left;
 }
 
 .InnovationContainer {
@@ -26,6 +27,7 @@
     padding-right: 30px;
     background-color: white;
     margin-bottom: 30px;
+    text-align: left;
 }
 
 .Excellence-InnovationContainer {
@@ -33,19 +35,21 @@
     grid-column-gap: 30px;
     grid-template-columns: 1fr 1fr;
     margin: 30px auto;
-    width: 70%;
+    width: 90%;
 }
 
 .head-font {
     font-size: 36px;
     font-family: "AvenirLTStd";
     color: rgb( 0, 0, 0);
+    text-align: left;
 }
 
 .sub-head-font {
     font-size: 22px;
     font-family: "AvenirLTStd";
     color: rgb( 0, 0, 0);
+    text-align: left;
 }
 
 .p-font {
@@ -54,6 +58,7 @@
     font-family: "Avenir";
     justify-self: left;
     align-self: center;
+    text-align: left;
 }
 
 .sub-p-font {

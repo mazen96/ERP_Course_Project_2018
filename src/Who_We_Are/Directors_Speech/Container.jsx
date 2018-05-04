@@ -7,8 +7,7 @@ class Container extends Component {
     render(){
         return(
             <div id="container">
-                <DirectorsSpeechContainer>
-                </DirectorsSpeechContainer>  
+                <DirectorsSpeechContainer />  
             </div>
         )
     }

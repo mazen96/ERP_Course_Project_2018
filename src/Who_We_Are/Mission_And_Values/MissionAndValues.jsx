@@ -7,7 +7,7 @@ class MissionAndValues extends Component {
     render(){
         return(
             <div>
-                <Container></Container>
+                <Container />
             </div>
         )
     }
