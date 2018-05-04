@@ -52,8 +52,8 @@ a {
 }
 
 .carousel {
-  padding: 60px;
-  margin-bottom: 50px;
+  padding-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 .carousel-indicators li {
@@ -68,7 +68,7 @@ a {
 }
 
 .info h1 {
-  font-size: 60px;
+  font-size: 30px;
   margin-bottom: 10px;
   font-weight: bold;
   text-transform: uppercase;
@@ -85,6 +85,11 @@ a {
 .button:hover {
   background-color: white;
   color: red;
+}
+
+p{
+    color: rgb( 149, 149, 149);
+    font-family: "Avenir";
 }
 
 

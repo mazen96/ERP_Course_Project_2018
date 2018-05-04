@@ -1,0 +1,100 @@
+.p{
+    font-family: "Times New Roman", Times, serif;
+}
+.org{
+    color: rgb(226,0,26);
+    text-align: center;
+}
+.Challenges{
+    font-size: 18px;
+    color: rgb(0,0,0);
+    font-family: "Sans-serif";
+    text-align: center;
+}
+.LargeOrg{
+    font-size: 90px;
+    font-family: "Sans-serif";
+    color: rgb(255,255,255);
+    font-family: "Avenir";
+    text-align: right;
+}
+
+.MainTabsWhite{
+    font-size: 18px;
+    color: rgb(255,255,255);
+    font-family: "Sans-serif";
+    text-align: center;
+}
+.MainTabsRed{
+    font-size: 18px;
+    color: rgb(229,0,30);
+    font-family: "Sans-serif";
+    text-align: center;
+}
+.parent{
+    display: grid;
+    padding: 5em;
+    background-color: #ddd;
+}
+.first{
+    /*background-color: #ddd;*/
+    display: grid;
+    background-color: white;
+    padding: 3em;
+    align-items: stretch;
+}
+.LargeOrg{
+    font-size: 90px;
+    font-family: "Sans-serif";
+    color: rgb(255,255,255);
+    font-family: "Avenir";
+    text-align: right;
+}
+.Colomns{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    
+}
+.Colomns > div{
+    padding: 1em;
+    background-color: white;
+}
+.col1{
+    display: grid;
+    grid-template-columns:1fr 1fr 3fr;
+}
+.col1 > div {
+    padding: 1em;
+    background-color: white;
+}
+.col2{
+    display: grid;
+    grid-template-columns:1fr;
+}
+.col2 > div {
+    padding: 1em;
+    background-color: white;
+}
+.col3{
+    display: grid;
+    grid-template-columns:1fr;
+}
+.col3 > div {
+    padding: 1em;
+    background-color: white;
+}
+.orgChart{
+    background-color: white;
+    display: grid;
+    padding: 2em;
+}
+.secondParagraph{
+    background-color: white;
+    display: grid;
+    padding: 2em;
+}
+.zero{
+    font-size: 24px;
+    color: rgb(230,0,31);
+    font-family: "Avenir LT Std";
+}

@@ -30,7 +30,7 @@ class PublicInterest extends Component {
         return (
             <div className="LandingPage">
                 <div style={style}>
-                    <WordBox title={this.state.wordBoxes[0].title} text={this.state.wordBoxes[0].text} />
+                    <WordBox  {...this.state.wordBoxes[0]} />
                 </div>
             </div>
         );

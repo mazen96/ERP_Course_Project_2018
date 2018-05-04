@@ -24,12 +24,12 @@ class WhoWeAre extends Component {
                     text: "ASIS's primary goal is to obtain and distribute secret intelligence about the capabilities, intentions and activities of individuals or organisations outside Australia, which may impact on Australia's interests and the well-being of its citizens.\n ASIS's primary goal is to obtain and distribute secret intelligence about the capabilities, intentions and activities of individuals or organisations outside Australia, which may impact on Australia's interests and the well-being of its citizens.\nASIS's primary goal is to obtain and distribute secret intelligence about the capabilities, intentions and activities of individuals or organisations outside Australia, which may impact on Australia's interests and the well-being of its citizens.\n ASIS's primary goal is to obtain and distribute secret intelligence about the capabilities, intentions and activities of individuals or organisations outside Australia, which may impact on Australia's interests and the well-being of its citizens.\nASIS's primary goal is to obtain and distribute secret intelligence about the capabilities, intentions and activities of individuals or organisations outside Australia, which may impact on Australia's interests and the well-being of its citizens.\n ASIS's primary goal is to obtain and distribute secret intelligence about the capabilities, intentions and activities of individuals or organisations outside Australia, which may impact on Australia's interests and the well-being of its citizens."
                 },
                 {
-                    title: 'the Government',
+                    title: 'The Government',
                     text: "The Australian Government expects us to be adaptable and to respond effectively to the growing number and diverse nature of threats facing Australia and its citizens. Our work can involve collecting intelligence relating to national defence, international relations and economic issues. We also contribute to Australia's coordinated national efforts against terrorism, proliferation of weapons of mass destruction, and trans-national issues such as people smuggling"
                 }
             ],
             dashBox: {
-                title: "functions",
+                title: "Functions",
                 text: "Our functions, as set out in the Intelligence Services Act 2001, are to:",
                 DashElements: [
                     {

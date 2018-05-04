@@ -5,8 +5,8 @@
     position: relative;
   }
   
-  img {
-    height: 70%;
+  .img {
+    height: 50%;
   }
   
   .min-navbar i {
