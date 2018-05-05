@@ -4,7 +4,7 @@
 
 .MissionAndValuesContainer {
     font-weight: bold;
-    padding: 40px 60px;
+    padding: 40px 80px;
     background-color: white;
     width: 90%;
     right: 0px;
@@ -14,7 +14,7 @@
 
 .ExcellenceContainer {
     font-weight: bold;
-    padding: 40px 60px;
+    padding: 40px 80px;
     padding-right: 30px;
     background-color: white;
     margin-bottom: 30px;
@@ -23,7 +23,7 @@
 
 .InnovationContainer {
     font-weight: bold;
-    padding: 40px 60px;
+    padding: 40px 80px;
     padding-right: 30px;
     background-color: white;
     margin-bottom: 30px;
