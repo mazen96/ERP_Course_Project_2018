@@ -14,7 +14,7 @@ class ArrayOfBlocks extends React.Component {
     if(this.props.blocks){
       blocks = this.props.blocks.map( (block,index) => {
         return (
-          <BlockWithIcon key={index} className={arrayOfClassNams[index]} pic = {block.pic}  text = {block.text} title = {block.title}/>
+          <BlockWithIcon key={index} className={arrayOfClassNams[index]} {...block}/>
         );
       });
     }

@@ -10,7 +10,6 @@ class Navbar extends Component {
         <Link to='/WhatWeDo'>What we do</Link>
         <Link to='/NewsFade'>News</Link><br />
       </div>
-
     );
   }
 }

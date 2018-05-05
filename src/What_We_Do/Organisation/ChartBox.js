@@ -7,10 +7,10 @@ class ChartBox extends Component {
     render() {
 
         return (
-            <div class="orgChart">
+            <div className="orgChart">
                 <h1><b>{this.props.title}</b></h1>
                 <img src={this.props.img} width="950px" height="550px" />
-                <div class="secondParagraph" style={{textAlign : 'left'}}>
+                <div className="secondParagraph" style={{textAlign : 'left'}}>
                     {this.props.text}
                 </div>
             </div>

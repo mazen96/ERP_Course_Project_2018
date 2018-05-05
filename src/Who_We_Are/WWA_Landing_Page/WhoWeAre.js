@@ -50,17 +50,20 @@ class WhoWeAre extends Component {
                 {
                     pic: "./img/sheild.png",
                     title: "Mission & Values",
-                    text: "Our mission is to protect and promote Australia's vital interests through the provision of unique foreign intelligence services as directed by Government."
+                    text: "Our mission is to protect and promote Australia's vital interests through the provision of unique foreign intelligence services as directed by Government.",
+                    href : "/MissionAndValues"
                 },
                 {
                     pic: "./img/gloabl.png",
                     title: "History",
-                    text: "Our mission is to protect and promote Australia's vital interests through the provision of unique foreign intelligence services as directed by Government."
+                    text: "Our mission is to protect and promote Australia's vital interests through the provision of unique foreign intelligence services as directed by Government.",
+                    href : "/History"
                 },
                 {
                     pic: "./img/message.png",
                     title: "DIRECTORS SPEECH",
-                    text: "Our mission is to protect and promote Australia's vital interests through the provision of unique foreign intelligence services as directed by Government."
+                    text: "Our mission is to protect and promote Australia's vital interests through the provision of unique foreign intelligence services as directed by Government.",
+                    href : "/DirectorsSpeech"
                 }
             ]
         });
@@ -83,7 +86,7 @@ class WhoWeAre extends Component {
                     </div>
 
                     <div className="twoOverTwo">
-                        <FAQ />
+                        <FAQ href='/WWA_FAQ' />
                     </div>
                 </div>
 

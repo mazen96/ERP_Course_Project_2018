@@ -1,26 +1,33 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import './Landing-Page.css';
 
 class BlockWithIcon extends React.Component {
   render() {
+    var href = '#';
+    if (this.props.href) {
+      href = this.props.href;
+    }
     return (
       <div>
-        <div className="threeColumn">
+        <div className="threeColumn" >
           <img className="oneOverTwo" src={this.props.pic} alt="" />
           <h4 className="twoOverFour">
-            <strong>{this.props.title}</strong>
+            <Link to={href}><strong>{this.props.title}</strong></Link>
           </h4>
         </div>
-        <p>
+        <p style={{ color: '#959595', textAlign: 'left' }}>
           {this.props.text}
         </p>
-        <h6
+        <Link to={href}><h6
           style={{
             color: "#e6001f"
           }}
         >
           MORE
-        </h6>
+
+        </h6></Link>
+
       </div>
     );
   }

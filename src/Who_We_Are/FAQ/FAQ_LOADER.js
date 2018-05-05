@@ -3,9 +3,9 @@ import FAQItem from './FAQItem.js'
 
 class FAQ_LOADER extends Component {
     render(){
-            const items = this.props.FAQs.map((item)=> {
+            const items = this.props.FAQs.map((item,i)=> {
                 return (
-                    <FAQItem question={item.question} answer = {item.answer} key={item.id} />
+                    <FAQItem question={item.question} answer = {item.answer} key={i} />
                     );
             });
         return(

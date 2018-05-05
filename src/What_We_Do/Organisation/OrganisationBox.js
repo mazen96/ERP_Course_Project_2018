@@ -18,15 +18,15 @@ class OrganisationBox extends Component {
 
         return (
             <div >
-                <div class="first">
+                <div className="first">
                     <h1>{this.props.title}</h1><br />
                     <p style={{textAlign : 'left'}}>{this.props.text}</p>
                 </div>
-                <div class="twoColomns">
-                    <div class="col1">
+                <div className="twoColomns">
+                    <div >
                         {first}
                     </div>
-                    <div class="col2">
+                    <div >
                         {seconed}
                     </div>
                 </div>

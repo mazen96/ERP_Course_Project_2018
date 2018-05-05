@@ -21,15 +21,18 @@ class WhatWeDo extends Component {
             wordBoxes: [
                 {
                     title: 'Legislations',
-                    text: "ASIS's primary goal is to obtain and distribute secret intelligence about the capabilities, intentions and activities of individuals or organisations outside Australia, which may impact on Australia's interests and the well-being of its citizens.\n ASIS's primary goal is to obtain and distribute secret intelligence about the capabilities, intentions and activities of individuals or organisations outside Australia, which may impact on Australia's interests and the well-being of its citizens."
+                    text: "ASIS's primary goal is to obtain and distribute secret intelligence about the capabilities, intentions and activities of individuals or organisations outside Australia, which may impact on Australia's interests and the well-being of its citizens.\n ASIS's primary goal is to obtain and distribute secret intelligence about the capabilities, intentions and activities of individuals or organisations outside Australia, which may impact on Australia's interests and the well-being of its citizens.",
+                    href : "/Legislations"
                 },
                 {
                     title: 'Organisation',
-                    text: "The Australian Government expects us to be adaptable and to respond effectively to the growing number and diverse nature of threats facing Australia and its citizens. Our work can involve collecting intelligence relating to national defence, international relations and economic issues. We also contribute to Australia's coordinated national efforts against terrorism, proliferation of weapons of mass destruction, and trans-national issues such as people smuggling."
+                    text: "The Australian Government expects us to be adaptable and to respond effectively to the growing number and diverse nature of threats facing Australia and its citizens. Our work can involve collecting intelligence relating to national defence, international relations and economic issues. We also contribute to Australia's coordinated national efforts against terrorism, proliferation of weapons of mass destruction, and trans-national issues such as people smuggling.",
+                    href : "/Organisation"
                 },
                 {
                     title: 'Accountability',
-                    text: "The Australian Government expects us to be adaptable and to respond effectively to the growing number and diverse nature of threats facing Australia and its citizens. Our work can involve collecting intelligence relating to national defence, international relations and economic issues. We also contribute to Australia's coordinated national efforts against terrorism, proliferation of weapons of mass destruction, and trans-national issues such as people smuggling."
+                    text: "The Australian Government expects us to be adaptable and to respond effectively to the growing number and diverse nature of threats facing Australia and its citizens. Our work can involve collecting intelligence relating to national defence, international relations and economic issues. We also contribute to Australia's coordinated national efforts against terrorism, proliferation of weapons of mass destruction, and trans-national issues such as people smuggling.",
+                    href : "/Accaountability"
                 }
             ],
             dashBox : {
@@ -76,19 +79,19 @@ class WhatWeDo extends Component {
             <div className="LandingPage">
                 <div className="twoColumn">
                     <div className="oneOverTwo">
-                        <WordBox title={this.state.wordBoxes[0].title} text={this.state.wordBoxes[0].text} />
+                        <WordBox {...this.state.wordBoxes[0]} />
                     </div>
                     <div className="twoOverTwo">
-                        <WordBox title={this.state.wordBoxes[1].title} text={this.state.wordBoxes[1].text} />
+                        <WordBox  {...this.state.wordBoxes[1]} />
                     </div>
                     <div className="oneOverTwo twoOverFourRow">
                         <DashBox title = {this.state.dashBox.title} text = {this.state.dashBox.text} DashElements={this.state.dashBox.DashElements} />
                     </div>
                     <div className="twoOverTwo">
-                        <WordBox title={this.state.wordBoxes[2].title} text={this.state.wordBoxes[2].text} />   
+                        <WordBox  {...this.state.wordBoxes[2]} />   
                     </div>
                     <div className="twoOverTwo">
-                        <FAQ />
+                        <FAQ  href='/WWD_FAQ'/>
                     </div>
                 </div>
                 <br />
