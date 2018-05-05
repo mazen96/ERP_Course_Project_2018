@@ -41,7 +41,7 @@ class accaountabilityBox4 extends Component{
             </div>
             <div className="inBox4">
                 <p>
-                    non
+                    .
                     <br/>
                     <br/>
                     <br/>

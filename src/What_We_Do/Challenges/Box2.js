@@ -29,7 +29,7 @@ class Box2 extends React.Component {
         </h1>
         <img src={Dash} className="dashBox2" />
         <p className="subBox2">
-          {this.state.body1}
+              {this.state.body1}
         </p>
         <img src={Crop} className="imageBox2" />
       </div>

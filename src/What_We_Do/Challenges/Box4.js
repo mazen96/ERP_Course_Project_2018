@@ -33,7 +33,7 @@ class Box4 extends React.Component {
         </div>
         <div className="inBox4">
           <p>
-            non
+            .
             <br />
             <br />
             <br />
