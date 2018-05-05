@@ -16,6 +16,7 @@ import WWD_FAQ from './What_We_Do/WWD_FAQ/wwd_faq';
 import NewsEvents from './News/News_Events/news';
 import NewsPublication from './News/News_Publications/NewsPublication'
 import Organisation from './What_We_Do/Organisation/Organisation'
+import Wanted from './Home/wanted/Wanted'
 
 class App extends Component {
   render() {
@@ -36,6 +37,7 @@ class App extends Component {
             <Route exact path='/NewsEvents'       component={NewsEvents}/>
             <Route exact path='/NewsPublication'  component={NewsPublication}/>
             <Route exact path='/Organisation'     component={Organisation}/>
+            <Route exact path='/Wanted'           component={Wanted}/>
         </Switch>
     );
   }
