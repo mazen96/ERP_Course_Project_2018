@@ -17,28 +17,32 @@ import NewsEvents from './News/News_Events/news';
 import NewsPublication from './News/News_Publications/NewsPublication'
 import Organisation from './What_We_Do/Organisation/Organisation'
 import Wanted from './Home/wanted/Wanted'
+import Legislations from './What_We_Do/Legislations/Legislations'
+import faq from './Who_We_Are/FAQ/faq'
 
 class App extends Component {
   render() {
     return (
-        <Switch>
-            <Route exact path='/'                 component={HomeBody}/>
-            <Route exact path='/WhoWeAre'         component={WhoWeAre}/>
-            <Route exact path='/WhatWeDo'         component={WhatWeDo}/>
-            <Route exact path='/PublicInterest'   component={PublicInterest}/>
-            <Route exact path='/ReportThreats'    component={ReportThreats}/>
-            <Route exact path='/History'          component={History}/>
-            <Route exact path='/DirectorsSpeech'  component={DirectorsSpeech}/>
-            <Route exact path='/MissionAndValues' component={MissionAndValues}/>
-            <Route exact path='/NewsFade'         component={NewsFade}/>
-            <Route exact path='/Accaountability'  component={Accaountability}/>
-            <Route exact path='/Challenges'       component={Challenges}/>
-            <Route exact path='/WWD_FAQ'          component={WWD_FAQ}/>
-            <Route exact path='/NewsEvents'       component={NewsEvents}/>
-            <Route exact path='/NewsPublication'  component={NewsPublication}/>
-            <Route exact path='/Organisation'     component={Organisation}/>
-            <Route exact path='/Wanted'           component={Wanted}/>
-        </Switch>
+      <Switch>
+        <Route exact path='/'                   component={HomeBody} />
+        <Route exact path='/WhoWeAre'           component={WhoWeAre} />
+        <Route exact path='/WhatWeDo'           component={WhatWeDo} />
+        <Route exact path='/PublicInterest'     component={PublicInterest} />
+        <Route exact path='/ReportThreats'      component={ReportThreats} />
+        <Route exact path='/History'            component={History} />
+        <Route exact path='/DirectorsSpeech'    component={DirectorsSpeech} />
+        <Route exact path='/MissionAndValues'   component={MissionAndValues} />
+        <Route exact path='/NewsFade'           component={NewsFade} />
+        <Route exact path='/Accaountability'    component={Accaountability} />
+        <Route exact path='/Challenges'         component={Challenges} />
+        <Route exact path='/WWD_FAQ'            component={WWD_FAQ} />
+        <Route exact path='/NewsEvents'         component={NewsEvents} />
+        <Route exact path='/NewsPublication'    component={NewsPublication} />
+        <Route exact path='/Organisation'       component={Organisation} />
+        <Route exact path='/Wanted'             component={Wanted} />
+        <Route exact path='/Legislations'       component={Legislations} />
+        <Route exact path='/WWA_FAQ'            component={faq} />
+      </Switch>
     );
   }
 }

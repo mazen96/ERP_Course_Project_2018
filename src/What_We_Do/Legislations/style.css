@@ -1,0 +1,39 @@
+.card_leg
+{
+	margin: 0% 10% 0% 10%;
+	background-color: #fff;
+	padding: 3% 2%;
+	text-align: left
+}
+
+.card_cont
+{
+	padding: 4% 0% 0.5% 0%;
+	font-weight: bolder;
+	font-size: 18px;
+	font-family: Arial;
+}
+
+.leg_body
+{
+	background-color: #ececed;
+}
+
+.text
+{
+	font-weight: bolder;
+	font-size: 18px;
+	font-family: Arial;
+}
+.tit
+{
+	padding: 0px 20% 0% 0%;
+}
+.space_down
+{
+	margin: 7px 15%;
+}
+.space_up
+{
+	margin: 75px 15%;
+}

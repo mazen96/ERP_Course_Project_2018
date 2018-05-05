@@ -16,11 +16,11 @@ class Footer extends Component {
                         <Link to='/MissionAndValues'>Mission, Values and Ethics</Link><br />
                         <Link to='/History'>History</Link><br />
                         <Link to='/DirectorsSpeech'>DIRECTOR`S SPEESH</Link><br />
-                        <Link to='/WWD_FAQ'>FAQ</Link><br />
+                        <Link to='/WWA_FAQ'>FAQ</Link><br />
                     </div>
                     <div id="what" className="col-lg-2 col-md-5">
                         <Link to='/WhatWeDo'> <h4>What we do</h4></Link>
-                        <Link to='/'>Legislations</Link><br />
+                        <Link to='/Legislations'>Legislations</Link><br />
                         <Link to='/PublicInterest'>Public Interest Disclosures</Link><br />
                         <Link to='/'>Counter-terrorism</Link><br />
                         <Link to='/'>Counter proliferation</Link><br />
